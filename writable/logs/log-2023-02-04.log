@@ -1,0 +1,399 @@
+ERROR - 2023-02-04 06:54:43 --> mysqli_sql_exception: Unknown column 'namamhs' in 'field list' in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\test\app\Models\Mahasiswa_model.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\test\app\Controllers\Mahasiswa.php(33): App\Models\Mahasiswa_model->saveMahasiswa(Array)
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->addmhs()
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\test\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-04 06:54:43 --> Unknown column 'namamhs' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_mahasiswa` (`namamhs`, `nim`) VALUES (:namamhs:, :nim:)', [...], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Mahasiswa.php(33): App\Models\Mahasiswa_model->saveMahasiswa([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->addmhs()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 07:17:35 --> Call to undefined method App\Models\Mahasiswa_model::editMahasiswa
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Controllers\Mahasiswa.php(71): CodeIgniter\Model->__call('editMahasiswa', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 07:18:18 --> Call to undefined method App\Models\Mahasiswa_model::editmhs
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Controllers\Mahasiswa.php(71): CodeIgniter\Model->__call('editmhs', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-04 07:20:12 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_sp`.`tbl_pendaftaran`, CONSTRAINT `tbl_pendaftaran_ibfk_2` FOREIGN KEY (`nim`) REFERENCES `tbl_mahasiswa` (`nim`)) in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `tbl_mah...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_mah...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_mah...')
+#3 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(2462): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_mah...', Array, false)
+#4 C:\xampp\htdocs\test\app\Models\Mahasiswa_model.php(28): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\test\app\Controllers\Mahasiswa.php(71): App\Models\Mahasiswa_model->editMahasiswa(Array, '2')
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->update()
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\test\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-04 07:20:12 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_sp`.`tbl_pendaftaran`, CONSTRAINT `tbl_pendaftaran_ibfk_2` FOREIGN KEY (`nim`) REFERENCES `tbl_mahasiswa` (`nim`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2462): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_mahasiswa` SET `nama` = :nama:, `nim` = :nim:
+WHERE `id_mahasiswa` = :id_mahasiswa:', [...], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(28): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Mahasiswa.php(71): App\Models\Mahasiswa_model->editMahasiswa([...], '2')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->update()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-04 07:20:31 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_sp`.`tbl_pendaftaran`, CONSTRAINT `tbl_pendaftaran_ibfk_2` FOREIGN KEY (`nim`) REFERENCES `tbl_mahasiswa` (`nim`)) in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `tbl_mah...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_mah...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_mah...')
+#3 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(2462): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_mah...', Array, false)
+#4 C:\xampp\htdocs\test\app\Models\Mahasiswa_model.php(28): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\test\app\Controllers\Mahasiswa.php(71): App\Models\Mahasiswa_model->editMahasiswa(Array, '2')
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->update()
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\test\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-04 07:20:31 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_sp`.`tbl_pendaftaran`, CONSTRAINT `tbl_pendaftaran_ibfk_2` FOREIGN KEY (`nim`) REFERENCES `tbl_mahasiswa` (`nim`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2462): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_mahasiswa` SET `nama` = :nama:, `nim` = :nim:
+WHERE `id_mahasiswa` = :id_mahasiswa:', [...], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(28): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Mahasiswa.php(71): App\Models\Mahasiswa_model->editMahasiswa([...], '2')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->update()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-04 07:22:47 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\test\app\Models\Mahasiswa_model.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\test\app\Controllers\Mahasiswa.php(33): App\Models\Mahasiswa_model->saveMahasiswa(Array)
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->addmhs()
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\test\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-04 07:22:47 --> Column 'nama' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_mahasiswa` (`nama`, `nim`) VALUES (:nama:, :nim:)', [...], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Mahasiswa.php(33): App\Models\Mahasiswa_model->saveMahasiswa([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->addmhs()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-04 07:23:44 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_sp`.`tbl_pendaftaran`, CONSTRAINT `tbl_pendaftaran_ibfk_2` FOREIGN KEY (`nim`) REFERENCES `tbl_mahasiswa` (`nim`)) in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `tbl_mah...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_mah...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_mah...')
+#3 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(2462): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_mah...', Array, false)
+#4 C:\xampp\htdocs\test\app\Models\Mahasiswa_model.php(28): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\test\app\Controllers\Mahasiswa.php(71): App\Models\Mahasiswa_model->editMahasiswa(Array, '2')
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->update()
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\test\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-04 07:23:44 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_sp`.`tbl_pendaftaran`, CONSTRAINT `tbl_pendaftaran_ibfk_2` FOREIGN KEY (`nim`) REFERENCES `tbl_mahasiswa` (`nim`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2462): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_mahasiswa` SET `nama` = :nama:, `nim` = :nim:
+WHERE `id_mahasiswa` = :id_mahasiswa:', [...], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(28): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Mahasiswa.php(71): App\Models\Mahasiswa_model->editMahasiswa([...], '2')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->update()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-04 07:28:27 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_sp`.`tbl_pendaftaran`, CONSTRAINT `tbl_pendaftaran_ibfk_2` FOREIGN KEY (`nim`) REFERENCES `tbl_mahasiswa` (`nim`)) in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(2777): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\test\app\Models\Mahasiswa_model.php(34): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\test\app\Controllers\Mahasiswa.php(85): App\Models\Mahasiswa_model->hapusMahasiswa('1')
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->hapus('1')
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\test\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-04 07:28:27 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_sp`.`tbl_pendaftaran`, CONSTRAINT `tbl_pendaftaran_ibfk_2` FOREIGN KEY (`nim`) REFERENCES `tbl_mahasiswa` (`nim`))
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2777): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_mahasiswa`
+WHERE `id_mahasiswa` = :id_mahasiswa:', [...], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(34): CodeIgniter\Database\BaseBuilder->delete([...])
+ 3 APPPATH\Controllers\Mahasiswa.php(85): App\Models\Mahasiswa_model->hapusMahasiswa('1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->hapus('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-04 07:50:46 --> mysqli_sql_exception: Column 'nama_praktikum' cannot be null in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\test\app\Models\Praktikum_model.php(21): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\test\app\Controllers\Praktikum.php(32): App\Models\Praktikum_model->savePraktikum(Array)
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(934): App\Controllers\Praktikum->add()
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Praktikum))
+#8 C:\xampp\htdocs\test\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-04 07:50:46 --> Column 'nama_praktikum' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_praktikum` (`nama_praktikum`) VALUES (:nama_praktikum:)', [...], false)
+ 2 APPPATH\Models\Praktikum_model.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Praktikum.php(32): App\Models\Praktikum_model->savePraktikum([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Praktikum->add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Praktikum))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:25:43 --> Undefined array key "nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:28:18 --> Undefined array key "nama_praktikum"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_praktikum"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:28:19 --> Undefined array key "nama_praktikum"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_praktikum"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:28:43 --> Undefined array key "tbl_mahasiswa.nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tbl_mahasiswa.nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:28:44 --> Undefined array key "tbl_mahasiswa.nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tbl_mahasiswa.nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:28:44 --> Undefined array key "tbl_mahasiswa.nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tbl_mahasiswa.nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:35:46 --> Undefined array key "tbl_mahasiswa.nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tbl_mahasiswa.nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:35:46 --> Undefined array key "tbl_mahasiswa.nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tbl_mahasiswa.nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:35:46 --> Undefined array key "tbl_mahasiswa.nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tbl_mahasiswa.nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:35:47 --> Undefined array key "tbl_mahasiswa.nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tbl_mahasiswa.nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:35:52 --> Undefined array key "tbl_mahasiswa.nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tbl_mahasiswa.nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:36:09 --> Undefined array key "nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:40:40 --> Undefined array key "nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:40:41 --> Undefined array key "nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:40:41 --> Undefined array key "nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:40:41 --> Undefined array key "nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:40:42 --> Undefined array key "nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:40:42 --> Undefined array key "nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:40:42 --> Undefined array key "nama"
+in APPPATH\Views\pendaftaran_view.php on line 24.
+ 1 APPPATH\Views\pendaftaran_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\pendaftaran_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(14): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:57:11 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Pendaftaran.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:57:11 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Pendaftaran.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-04 13:57:11 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Pendaftaran.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

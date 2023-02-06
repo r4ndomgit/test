@@ -1,0 +1,717 @@
+CRITICAL - 2023-02-05 13:03:15 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Pendaftaran.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:26:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:26:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:26:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:26:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:39:10 --> syntax error, unexpected variable "$builder"
+in APPPATH\Models\Pendaftaran_model.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Pendaftaran_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pendaftaran_model')
+ 3 APPPATH\Controllers\Pendaftaran.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pendaftaran_model')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pendaftaran->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:39:11 --> syntax error, unexpected variable "$builder"
+in APPPATH\Models\Pendaftaran_model.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Pendaftaran_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pendaftaran_model')
+ 3 APPPATH\Controllers\Pendaftaran.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pendaftaran_model')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pendaftaran->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:39:21 --> syntax error, unexpected variable "$builder"
+in APPPATH\Models\Pendaftaran_model.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Pendaftaran_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pendaftaran_model')
+ 3 APPPATH\Controllers\Pendaftaran.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pendaftaran_model')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pendaftaran->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:39:21 --> syntax error, unexpected variable "$builder"
+in APPPATH\Models\Pendaftaran_model.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Pendaftaran_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pendaftaran_model')
+ 3 APPPATH\Controllers\Pendaftaran.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pendaftaran_model')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pendaftaran->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:39:21 --> syntax error, unexpected variable "$builder"
+in APPPATH\Models\Pendaftaran_model.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Pendaftaran_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pendaftaran_model')
+ 3 APPPATH\Controllers\Pendaftaran.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pendaftaran_model')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pendaftaran->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:39:22 --> syntax error, unexpected variable "$builder"
+in APPPATH\Models\Pendaftaran_model.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Pendaftaran_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pendaftaran_model')
+ 3 APPPATH\Controllers\Pendaftaran.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pendaftaran_model')
+ 4 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pendaftaran->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:41:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:41:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:42:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:42:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:42:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:42:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:42:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:42:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:42:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:42:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:42:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:45:28 --> Undefined variable $db
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Models\Pendaftaran_model.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\Pendaftaran_model.php', 11)
+ 2 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:45:28 --> Undefined variable $db
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Models\Pendaftaran_model.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\Pendaftaran_model.php', 11)
+ 2 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:45:29 --> Undefined variable $db
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Models\Pendaftaran_model.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\Pendaftaran_model.php', 11)
+ 2 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:45:29 --> Undefined variable $db
+in APPPATH\Models\Pendaftaran_model.php on line 11.
+ 1 APPPATH\Models\Pendaftaran_model.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\Pendaftaran_model.php', 11)
+ 2 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:47:47 --> Undefined variable $join
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $join', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:47:48 --> Undefined variable $join
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $join', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:47:48 --> Undefined variable $join
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $join', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:48:57 --> Undefined variable $data
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:48:57 --> Undefined variable $data
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:48:57 --> Undefined variable $data
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:48:57 --> Undefined variable $data
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:49:14 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:49:14 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:49:14 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:49:14 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:57:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:57:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:59:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 13:59:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:00:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:00:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:00:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:10:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:11:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:12:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getReultArray()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:12:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getReultArray()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:12:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getReultArray()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:12:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getReultArray()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:12:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getReultArray()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:12:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getReultArray()
+in APPPATH\Models\Pendaftaran_model.php on line 17.
+ 1 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:12:08 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:12:09 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:12:09 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:18:58 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:18:58 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:18:58 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:18:59 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:18:59 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pendaftaran_view.php on line 20.
+ 1 APPPATH\Views\pendaftaran_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\pendaftaran_view.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:20:25 --> Undefined array key "nim"
+in APPPATH\Views\pendaftaran_view.php on line 23.
+ 1 APPPATH\Views\pendaftaran_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nim"', 'APPPATH\\Views\\pendaftaran_view.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:20:27 --> Undefined array key "nim"
+in APPPATH\Views\pendaftaran_view.php on line 23.
+ 1 APPPATH\Views\pendaftaran_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nim"', 'APPPATH\\Views\\pendaftaran_view.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:20:27 --> Undefined array key "nim"
+in APPPATH\Views\pendaftaran_view.php on line 23.
+ 1 APPPATH\Views\pendaftaran_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nim"', 'APPPATH\\Views\\pendaftaran_view.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:20:27 --> Undefined array key "nim"
+in APPPATH\Views\pendaftaran_view.php on line 23.
+ 1 APPPATH\Views\pendaftaran_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nim"', 'APPPATH\\Views\\pendaftaran_view.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-05 14:21:25 --> mysqli_sql_exception: Unknown column 'tbl.mahasiswa.nim' in 'field list' in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_mah...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_mah...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_mah...')
+#3 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_mah...', Array, false)
+#4 C:\xampp\htdocs\test\app\Models\Pendaftaran_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\test\app\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#8 C:\xampp\htdocs\test\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-05 14:21:25 --> Unknown column 'tbl.mahasiswa.nim' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_mahasiswa`.`nama` AS `nama`, `tbl_praktikum`.`nama_praktikum` AS `praktikum`, `tbl`.`mahasiswa`.`nim` AS `nim`
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_pendaftaran` ON `tbl_mahasiswa`.`nim` = `tbl_pendaftaran`.`nim`
+LEFT JOIN `tbl_praktikum` ON `tbl_pendaftaran`.`id_praktikum` = `tbl_praktikum`.`id_praktikum`', [], false)
+ 2 APPPATH\Models\Pendaftaran_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-05 14:21:25 --> mysqli_sql_exception: Unknown column 'tbl.mahasiswa.nim' in 'field list' in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_mah...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_mah...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_mah...')
+#3 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_mah...', Array, false)
+#4 C:\xampp\htdocs\test\app\Models\Pendaftaran_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\test\app\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#8 C:\xampp\htdocs\test\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-05 14:21:25 --> Unknown column 'tbl.mahasiswa.nim' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_mahasiswa`.`nama` AS `nama`, `tbl_praktikum`.`nama_praktikum` AS `praktikum`, `tbl`.`mahasiswa`.`nim` AS `nim`
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_pendaftaran` ON `tbl_mahasiswa`.`nim` = `tbl_pendaftaran`.`nim`
+LEFT JOIN `tbl_praktikum` ON `tbl_pendaftaran`.`id_praktikum` = `tbl_praktikum`.`id_praktikum`', [], false)
+ 2 APPPATH\Models\Pendaftaran_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-05 14:21:26 --> mysqli_sql_exception: Unknown column 'tbl.mahasiswa.nim' in 'field list' in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_mah...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_mah...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_mah...')
+#3 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_mah...', Array, false)
+#4 C:\xampp\htdocs\test\app\Models\Pendaftaran_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\test\app\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#8 C:\xampp\htdocs\test\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-05 14:21:26 --> Unknown column 'tbl.mahasiswa.nim' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_mahasiswa`.`nama` AS `nama`, `tbl_praktikum`.`nama_praktikum` AS `praktikum`, `tbl`.`mahasiswa`.`nim` AS `nim`
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_pendaftaran` ON `tbl_mahasiswa`.`nim` = `tbl_pendaftaran`.`nim`
+LEFT JOIN `tbl_praktikum` ON `tbl_pendaftaran`.`id_praktikum` = `tbl_praktikum`.`id_praktikum`', [], false)
+ 2 APPPATH\Models\Pendaftaran_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-05 14:21:26 --> mysqli_sql_exception: Unknown column 'tbl.mahasiswa.nim' in 'field list' in C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\test\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tbl_mah...', 0)
+#1 C:\xampp\htdocs\test\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_mah...')
+#2 C:\xampp\htdocs\test\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_mah...')
+#3 C:\xampp\htdocs\test\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_mah...', Array, false)
+#4 C:\xampp\htdocs\test\app\Models\Pendaftaran_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\test\app\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+#6 C:\xampp\htdocs\test\system\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+#7 C:\xampp\htdocs\test\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#8 C:\xampp\htdocs\test\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\test\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-05 14:21:26 --> Unknown column 'tbl.mahasiswa.nim' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_mahasiswa`.`nama` AS `nama`, `tbl_praktikum`.`nama_praktikum` AS `praktikum`, `tbl`.`mahasiswa`.`nim` AS `nim`
+FROM `tbl_mahasiswa`
+LEFT JOIN `tbl_pendaftaran` ON `tbl_mahasiswa`.`nim` = `tbl_pendaftaran`.`nim`
+LEFT JOIN `tbl_praktikum` ON `tbl_pendaftaran`.`id_praktikum` = `tbl_praktikum`.`id_praktikum`', [], false)
+ 2 APPPATH\Models\Pendaftaran_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Pendaftaran.php(18): App\Models\Pendaftaran_model->getPendaftaran()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:21:42 --> Undefined array key "nama_praktikum"
+in APPPATH\Views\pendaftaran_view.php on line 25.
+ 1 APPPATH\Views\pendaftaran_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_praktikum"', 'APPPATH\\Views\\pendaftaran_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:21:43 --> Undefined array key "nama_praktikum"
+in APPPATH\Views\pendaftaran_view.php on line 25.
+ 1 APPPATH\Views\pendaftaran_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_praktikum"', 'APPPATH\\Views\\pendaftaran_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:21:43 --> Undefined array key "nama_praktikum"
+in APPPATH\Views\pendaftaran_view.php on line 25.
+ 1 APPPATH\Views\pendaftaran_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_praktikum"', 'APPPATH\\Views\\pendaftaran_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:21:58 --> Undefined array key "id_praktikum"
+in APPPATH\Views\pendaftaran_view.php on line 27.
+ 1 APPPATH\Views\pendaftaran_view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_praktikum"', 'APPPATH\\Views\\pendaftaran_view.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pendaftaran_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pendaftaran_view', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(20): view('pendaftaran_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:27:29 --> Invalid file: "tambahpendaftaran_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambahpendaftaran_view.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('tambahpendaftaran_view', [], true)
+ 3 APPPATH\Controllers\Pendaftaran.php(37): view('tambahpendaftaran_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-05 14:29:27 --> Invalid file: "tambahpendaftaran_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambahpendaftaran_view.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('tambahpendaftaran_view', [], true)
+ 3 APPPATH\Controllers\Pendaftaran.php(37): view('tambahpendaftaran_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pendaftaran->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
